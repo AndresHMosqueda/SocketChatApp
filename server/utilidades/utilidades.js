@@ -1,8 +1,8 @@
-const crearMensaje = (nombre, msj) => {
+const crearMensaje = (nombre, mensaje) => {
     return {
         nombre,
-        msj,
-        fecha: new Date.getTime()
+        mensaje,
+        fecha: new Date().getTime()
     }
 }
 
